@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victória Caroline - Psicóloga</title>
+    <style>
+      :root {
+        --font-title: 1.5rem;
+        --font-subtitle: 1rem;
+        --font-text: 1rem;
+        --font-btn: 1rem;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #fbeee4;
+        color: #2c3e50;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        background: url("borboleta.png") #fff no-repeat center top;
+        background-size: contain;
+        border-radius: 20px;
+        padding: 24px 20px;
+        max-width: 90vw;
+        width: 100%;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .photo {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #d9b4a0;
+        margin-top: 10px;
+      }
+
+      h1 {
+        font-size: var(--font-title);
+        margin: 15px 0 5px;
+        color: #276c6d;
+      }
+
+      h2 {
+        font-size: var(--font-subtitle);
+        font-weight: normal;
+        color: #b46951;
+        letter-spacing: 0, 5px;
+        margin-bottom: 05px;
+      }
+
+      .slogan {
+        font-size: var(--font-text);
+        color: #276c6d;
+        margin: 105px 0;
+      }
+
+      .btn {
+        display: block;
+        margin: 12px auto;
+        padding: 16px 20px;
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: var(--font-btn);
+        text-decoration: none;
+        transition: background 0.3s;
+        width: 100%;
+        max-width: 360px;
+      }
+
+      .btn-instagram {
+        background: #f7d6cb;
+        color: #7b3f3f;
+        border: 1px solid #d8a69e;
+      }
+
+      .btn-instagram:hover {
+        background: #efc5b9;
+      }
+
+      .btn-projetos {
+        background: #f7ece2;
+        color: #b46951;
+        border: 1px solid #d8b79d;
+      }
+
+      .btn-projetos:hover {
+        background: #f0ded0;
+      }
+
+      .btn-consulta {
+        background: #2e807e;
+        color: white;
+        border: none;
+      }
+
+      .btn-consulta:hover {
+        background: #276c6d;
+      }
+
+      @media (min-width: 768px) {
+        :root {
+          --font-title: 2rem;
+          --font-subtitle: 1.2rem;
+          --font-text: 1.1rem;
+          --font-btn: 1.1rem;
+        }
+
+        .container {
+          max-width: 480px;
+          padding: 40px 30px;
+        }
+
+        .photo {
+          width: 160px;
+          height: 160px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="copiavic.jpg" class="photo" />
+      <h1>Victória Caroline</h1>
+      <h2>PSICÓLOGA</h2>
+      <p class="slogan">
+        Para os que descobrem o mundo e para quem busca se reencontrar nele
+      </p>
+      <a
+        href="https://www.instagram.com/vicpsi_therapy"
+        class="btn btn-instagram"
+        target="_blank"
+        >📸 VISITE MEU INSTAGRAM PROFISSIONAL</a
+      >
+      <a
+        href="https://uiclap.bio/historinhasdavic?fbclid=PAZXh0bg..."
+        class="btn btn-projetos"
+        target="_blank"
+        >🎨 EXPLORE MEUS PROJETOS CRIATIVOS</a
+      >
+      <a
+        href="https://wa.me/18996853097"
+        class="btn btn-consulta"
+        target="_blank"
+        >📅 AGENDE UMA CONSULTA</a
+      >
+    </div>
+  </body>
+</html>
